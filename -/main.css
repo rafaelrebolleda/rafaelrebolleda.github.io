@@ -1,0 +1,145 @@
+/* The most basic CSS Reset ever
+ ******************************* */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* Basic Layout
+ ******************************** */
+html {
+  font-size: 10px; }
+
+body {
+  color: #555555;
+  font: 16px "museo-slab", "Georgia", "Times New Roman"; }
+
+img.typekit-badge {
+  display: none !important; }
+
+body > header:first-child {
+  color: white;
+  background: url(assets/header.jpg) center center no-repeat; }
+
+body > header img:first-child {
+  width: 5rem;
+  border-radius: 100%; }
+
+body > header h1 {
+  font-family: "daniel", "Helvetica", sans-serif;
+  text-transform: lowercase; }
+
+aside p {
+  color: #999999;
+  font-weight: 100; }
+
+footer {
+  height: 50rem; }
+
+@media screen and (min-width: 721px) {
+  body > header:first-child {
+    height: 40rem;
+    padding-top: 15rem;
+    color: white;
+    text-align: center;
+    background: url(assets/header.jpg) center center no-repeat; }
+
+  body > header h1 {
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 2rem; }
+
+  body > header h2 {
+    font-size: 1.5rem; }
+
+  /* Main Header
+   ************* */
+  aside {
+    width: 96rem;
+    margin: 5rem auto 8rem auto; }
+
+  aside p {
+    font-size: 2.5rem;
+    text-align: center; }
+
+  main {
+    width: 96rem;
+    margin: 0 auto;
+    background: url(assets/timeline.png) top center repeat-y; }
+
+  section {
+    padding-bottom: 7rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7); }
+
+  section h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    background: url(assets/milestone.png) top center no-repeat; }
+
+  section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100; }
+
+  article {
+    width: 66%;
+    margin: auto; }
+
+  article p {
+    margin-bottom: 2rem; }
+
+  section:last-child {
+    padding-bottom: 10rem;
+    background-image: url(assets/footer.png);
+    background-position: bottom center;
+    background-repeat: repeat-x; } }
+@media screen and (max-width: 720px) {
+  body > header:first-child {
+    height: 20rem;
+    padding-top: 5rem;
+    text-align: center; }
+
+  body > header h1 {
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 1.8rem; }
+
+  body > header h2 {
+    font-size: 1.3rem; }
+
+  aside {
+    margin-bottom: 3rem;
+    padding: 1.5rem; }
+
+  aside p {
+    font-size: 1.8rem; }
+
+  main {
+    padding-right: 1rem; }
+
+  section {
+    background: url(assets/timeline.png) 1.5rem 0 repeat-y; }
+
+  section header {
+    padding: 0.3rem 0 0 4rem;
+    background: url(assets/milestone.png) 0.5rem 0 no-repeat; }
+
+  section h1 {
+    font-size: 2rem; }
+
+  section h2 {
+    color: #bbbbbb;
+    font-size: 1.6rem;
+    font-weight: 100; }
+
+  section article {
+    margin-top: 2rem;
+    padding: 0 0 4rem 4rem; }
+
+  article p {
+    margin-bottom: 1rem; } }
