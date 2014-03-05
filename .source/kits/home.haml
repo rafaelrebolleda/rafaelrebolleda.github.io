@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+!!! 5
+%html(lang="en")
 
-  <!-- @import "../partials/head.html" -->
+  <!-- haml :"../partials/head.haml" -->
 
-  <body class="home">
+  %body.home
 
-    <!-- @import "../partials/header.html" -->
+    = Haml::Engine.new(File.read("/Users/Rafael/Repos/Personal/rafaelrebolleda.com/.source/partials/header.haml")).render
 
-    <aside>
-      <p>
+    %aside
+      %p
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, iure, totam, necessitatibus voluptates culpa modi esse nostrum soluta corporis quaerat labore
-      </p>
-    </aside>
 
     <!-- @import "../partials/footer.html" -->
-
-  </body>
-</html>
