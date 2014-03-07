@@ -1,4 +1,4 @@
-/* Header
+// Header
 body.home, body.timeline
 
   header:first-child
@@ -12,7 +12,7 @@ body.home, body.timeline
   header h1
     text-transform: lowercase
 
-  @media screen and (max-width: $rwd-breakpoint)
+  @media $handheld
 
     header:first-child
       height: 20rem
@@ -27,7 +27,7 @@ body.home, body.timeline
     header h2
       font-size: 1.3rem
 
-  @media screen and (min-width: $rwd-breakpoint)
+  @media $desktop
 
     header:first-child
       height: 40rem
