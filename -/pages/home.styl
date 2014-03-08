@@ -19,3 +19,36 @@ aside p
   @media $desktop
     font-size: 2.5rem
     text-align: center
+
+
+main
+  @media $handheld
+    padding-right: 1rem
+
+  @media $desktop
+    width: 96rem
+    margin: 0 auto
+    background: url("-/assets/timeline.png") top center repeat-y
+
+   &.hidden //- Tweaks to hide the timeline
+    section
+      display: none
+
+      &:first-child
+        display: block
+
+        @media $desktop
+          background: url("-/assets/footer.png") bottom center repeat-x
+
+        article
+          @media $handheld
+            height: 10rem
+            background: url("-/assets/footer.png") bottom center repeat-x
+
+          @media $desktop
+            display: none
+
+          p
+            @media $handheld
+              display: none
+
