@@ -162,16 +162,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/-\/pages\/timeline.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/-\/pages\/timeline.jade",
-		"outputAbbreviatedPath": "\/-\/pages\/timeline.html",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,

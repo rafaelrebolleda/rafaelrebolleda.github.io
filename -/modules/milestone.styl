@@ -1,65 +1,68 @@
 // Milestone
-body.timeline
+body.home
 
-  @media $handheld
-
-    main
+  main
+    @media $handheld
       padding-right: 1rem
 
-    section
-      background: url(assets/timeline.png) 1.5rem 0 repeat-y
-
-    section header
-      padding: 0.3rem 0 0 4rem
-      background: url(assets/milestone.png) 0.5rem 0 no-repeat
-
-    section h1
-      font-size: 2rem
-
-    section h2
-      color: #BBB
-      font-size: 1.6rem
-      font-weight: 100
-
-    section article
-      margin-top: 2rem
-      padding: 0 0 4rem 4rem
-
-    article p
-      margin-bottom: 1rem
-
-  @media $desktop
-
-    main
+    @media $desktop
       width: 96rem
       margin: 0 auto
-      background: url(assets/timeline.png) top center repeat-y
+      background: url("-/assets/timeline.png") top center repeat-y
 
-    section
+  section
+    @media $handheld
+      background: url("-/assets/timeline.png") 1.5rem 0 repeat-y
+
+    @media $desktop
       padding-bottom: 7rem
       text-align: center
       background: rgba(255, 255, 255, 0.7)
 
-    section h1
-      padding-top: 4rem
-      font-size: 2rem
-      text-align: center
-      background: url(assets/milestone.png) top center no-repeat
+    header
+      @media $handheld
+        padding: 0.3rem 0 0 4rem
+        background: url("-/assets/milestone.png") 0.5rem 0 no-repeat
 
-    section h2
-      margin-bottom: 2rem
-      font-size: 1.5rem
+    h1
+      @media $handheld
+        fontt-size: 2rem
+
+      @media $desktop
+        padding-top: 4rem
+        font-size: 2rem
+        text-align: center
+        background: url("-/assets/milestone.png") top center no-repeat
+
+    h2
       font-weight: 100
 
+      @media $handheld
+        color: #BBB
+        font-size: 1.6rem
+
+      @media $desktop
+        margin-bottom: 2rem
+        font-size: 1.5rem
+
     article
-      width: 66%
-      margin: auto
+      @media $handheld
+        margin-top: 2rem
+        padding: 0 0 4rem 4rem
 
-    article p
-      margin-bottom: 2rem
+      @media $desktop
+        width: 66%
+        margin: auto
 
-    section:last-child
-      padding-bottom: 10rem
-      background-image: url(assets/footer.png)
-      background-position: bottom center
-      background-repeat: repeat-x
+      p
+        @media $handheld
+          margin-bottom: 1rem
+        @media $desktop
+          margin-bottom: 2rem
+
+    &:last-child
+      @media $desktop
+        padding-bottom: 10rem
+        background-image: url("-/assets/footer.png")
+        background-position: bottom center
+        background-repeat: repeat-x

@@ -101,8 +101,8 @@ img.typekit-badge {
 /* line 12 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000312}}
-body.home header:first-child,
-body.timeline header:first-child {
+body.home > header:first-child,
+body.timeline > header:first-child {
   color: #fff;
   text-align: center;
   background: url("-/assets/header.jpg") center center no-repeat;
@@ -112,8 +112,8 @@ body.timeline header:first-child {
 /* line 16 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000316}}
-  body.home header:first-child,
-  body.timeline header:first-child {
+  body.home > header:first-child,
+  body.timeline > header:first-child {
     height: 20rem;
     padding-top: 5rem;
   }
@@ -123,8 +123,8 @@ body.timeline header:first-child {
 /* line 19 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000319}}
-  body.home header:first-child,
-  body.timeline header:first-child {
+  body.home > header:first-child,
+  body.timeline > header:first-child {
     height: 40rem;
     padding-top: 15rem;
   }
@@ -133,8 +133,8 @@ body.timeline header:first-child {
 /* line 22 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000322}}
-body.home header:first-child img:first-child,
-body.timeline header:first-child img:first-child {
+body.home > header:first-child img:first-child,
+body.timeline > header:first-child img:first-child {
   width: 5rem;
   border-radius: 100%;
 }
@@ -142,8 +142,8 @@ body.timeline header:first-child img:first-child {
 /* line 25 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000325}}
-body.home header:first-child h1,
-body.timeline header:first-child h1 {
+body.home > header:first-child h1,
+body.timeline > header:first-child h1 {
   margin-top: 1rem;
   text-transform: lowercase;
   font-weight: 100;
@@ -153,8 +153,8 @@ body.timeline header:first-child h1 {
 /* line 29 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000329}}
-  body.home header:first-child h1,
-  body.timeline header:first-child h1 {
+  body.home > header:first-child h1,
+  body.timeline > header:first-child h1 {
     font-size: 1.8rem;
   }
 }
@@ -163,8 +163,8 @@ body.timeline header:first-child h1 {
 /* line 31 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000331}}
-  body.home header:first-child h1,
-  body.timeline header:first-child h1 {
+  body.home > header:first-child h1,
+  body.timeline > header:first-child h1 {
     font-size: 2rem;
   }
 }
@@ -177,8 +177,8 @@ body.timeline header:first-child h1 {
 /* line 34 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000334}}
-  body.home header:first-child h2,
-  body.timeline header:first-child h2 {
+  body.home > header:first-child h2,
+  body.timeline > header:first-child h2 {
     font-size: 1.3rem;
   }
 }
@@ -187,8 +187,8 @@ body.timeline header:first-child h1 {
 /* line 36 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/header.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/header\.styl}line{font-family:\0000336}}
-  body.home header:first-child h2,
-  body.timeline header:first-child h2 {
+  body.home > header:first-child h2,
+  body.timeline > header:first-child h2 {
     font-size: 1.5rem;
   }
 }
@@ -275,124 +275,181 @@ aside p {
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\000032}}
 
+/* line 16 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000316}}
+
+/* line 17 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000317}}
+@media screen and (max-width: 980px) {
+
 /* line 18 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000318}}
-@media screen and (max-width: 980px) {
+  body.home main {
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 980px) {
 
 /* line 20 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000320}}
-  body.timeline main {
-    padding-right: 1rem;
+  body.home main {
+    width: 96rem;
+    margin: 0 auto;
+    background: url("-/assets/timeline.png") top center repeat-y;
   }
-
-/* line 22 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000322}}
-  body.timeline section {
-    background: url("assets/timeline.png") 1.5rem 0 repeat-y;
-  }
+}
 
 /* line 24 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000324}}
-  body.timeline section header {
-    padding: 0.3rem 0 0 4rem;
-    background: url("assets/milestone.png") 0.5rem 0 no-repeat;
+@media screen and (max-width: 980px) {
+
+/* line 25 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000325}}
+  body.home section {
+    background: url("-/assets/timeline.png") 1.5rem 0 repeat-y;
   }
+}
+@media screen and (min-width: 980px) {
 
 /* line 27 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000327}}
-  body.timeline section h1 {
-    font-size: 2rem;
+  body.home section {
+    padding-bottom: 7rem;
+    text-align: center;
+    background: rgba(255,255,255,0.7);
   }
+}
 
-/* line 29 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+/* line 31 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000329}}
-  body.timeline section h2 {
-    color: #bbb;
-    font-size: 1.6rem;
-    font-weight: 100;
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000331}}
+@media screen and (max-width: 980px) {
+
+/* line 32 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000332}}
+  body.home section header {
+    padding: 0.3rem 0 0 4rem;
+    background: url("-/assets/milestone.png") 0.5rem 0 no-repeat;
   }
+}
 
-/* line 33 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+/* line 35 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000333}}
-  body.timeline section article {
-    margin-top: 2rem;
-    padding: 0 0 4rem 4rem;
-  }
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000335}}
+@media screen and (max-width: 980px) {
 
 /* line 36 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000336}}
-  body.timeline article p {
+  body.home section h1 {
+    fontt-size: 2rem;
+  }
+}
+@media screen and (min-width: 980px) {
+
+/* line 38 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000338}}
+  body.home section h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    background: url("-/assets/milestone.png") top center no-repeat;
+  }
+}
+
+/* line 43 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000343}}
+body.home section h2 {
+  font-weight: 100;
+}
+@media screen and (max-width: 980px) {
+
+/* line 45 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000345}}
+  body.home section h2 {
+    color: #bbb;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 980px) {
+
+/* line 48 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000348}}
+  body.home section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* line 51 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000351}}
+@media screen and (max-width: 980px) {
+
+/* line 52 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000352}}
+  body.home section article {
+    margin-top: 2rem;
+    padding: 0 0 4rem 4rem;
+  }
+}
+@media screen and (min-width: 980px) {
+
+/* line 55 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000355}}
+  body.home section article {
+    width: 66%;
+    margin: auto;
+  }
+}
+
+/* line 58 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000358}}
+@media screen and (max-width: 980px) {
+
+/* line 59 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000359}}
+  body.home section article p {
     margin-bottom: 1rem;
   }
 }
 @media screen and (min-width: 980px) {
 
-/* line 39 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000339}}
-  body.timeline main {
-    width: 96rem;
-    margin: 0 auto;
-    background: url("assets/timeline.png") top center repeat-y;
-  }
-
-/* line 43 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000343}}
-  body.timeline section {
-    padding-bottom: 7rem;
-    text-align: center;
-    background: rgba(255,255,255,0.7);
-  }
-
-/* line 47 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000347}}
-  body.timeline section h1 {
-    padding-top: 4rem;
-    font-size: 2rem;
-    text-align: center;
-    background: url("assets/milestone.png") top center no-repeat;
-  }
-
-/* line 52 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000352}}
-  body.timeline section h2 {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    font-weight: 100;
-  }
-
-/* line 56 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000356}}
-  body.timeline article {
-    width: 66%;
-    margin: auto;
-  }
-
-/* line 59 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000359}}
-  body.timeline article p {
-    margin-bottom: 2rem;
-  }
-
 /* line 61 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000361}}
-  body.timeline section:last-child {
+  body.home section article p {
+    margin-bottom: 2rem;
+  }
+}
+
+/* line 63 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000363}}
+@media screen and (min-width: 980px) {
+
+/* line 64 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000364}}
+  body.home section:last-child {
     padding-bottom: 10rem;
-    background-image: url("assets/footer.png");
+    background-image: url("-/assets/footer.png");
     background-position: bottom center;
     background-repeat: repeat-x;
   }
