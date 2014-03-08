@@ -337,7 +337,7 @@ aside p {
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000332}}
   body.home section header {
     padding: 0.3rem 0 0 4rem;
-    background: url("-/assets/milestone.png") 0.5rem 0 no-repeat;
+    background: url("-/assets/milestone.svg") 0.5rem 0 no-repeat;
   }
 }
 
@@ -350,7 +350,7 @@ aside p {
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/modules\/milestone\.styl}line{font-family:\0000336}}
   body.home section h1 {
-    fontt-size: 2rem;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 980px) {
@@ -362,7 +362,7 @@ aside p {
     padding-top: 4rem;
     font-size: 2rem;
     text-align: center;
-    background: url("-/assets/milestone.png") top center no-repeat;
+    background: url("-/assets/milestone.svg") top center no-repeat;
   }
 }
 
