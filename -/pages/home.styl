@@ -30,11 +30,42 @@ main
     margin: 0 auto
     background: url("-/assets/timeline.png") top center repeat-y
 
+  button
+    display: block
+    width: 3rem
+    height: 3rem
+    transform: rotate(45deg)
+    color: #FFF
+    font: bold 3rem "museo-slab", "Helvetica Neue", Helvetica, sans-serif
+    border: none
+    border-radius: 100%
+    background: transparent
+
+    @media $handheld
+      position: absolute
+      left: 0.5rem
+
+    @media $desktop
+      position: absolute
+      left: -1.5rem
+      margin: 0 50%
+
+    span
+      display: block
+      position: absolute
+      top: -0.45rem
+      left: 0.6rem
+
    &.hidden //- Tweaks to hide the timeline
+    position: relative
+
+    button
+      transform: rotate(0deg)
+
     section
       display: none
 
-      &:first-child
+      &:nth-child(2) //- The first section
         display: block
 
         @media $desktop

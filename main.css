@@ -1,7 +1,7 @@
 
-/* line 46 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+/* line 48 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000346}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000348}}
 
 /* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/stylus/lib/functions/index.styl */
 
@@ -16,15 +16,15 @@
    [link to github]
    ************************************************/
 
-/* line 14 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000314}}
-/* The most basic CSS Reset ever
- ********************************/
-
 /* line 16 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000316}}
+/* The most basic CSS Reset ever
+ ********************************/
+
+/* line 18 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000318}}
 * {
   margin: 0;
   padding: 0;
@@ -33,9 +33,9 @@
   box-sizing: border-box;
 }
 
-/* line 21 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+/* line 23 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000321}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000323}}
 article,
 aside,
 details,
@@ -51,37 +51,37 @@ summary {
   display: block;
 }
 
-/* line 24 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000324}}
-/* Basic Layout
- ***************/
-
 /* line 26 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000326}}
+/* Basic Layout
+ ***************/
+
+/* line 28 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000328}}
 html {
   font-size: 10px;
 }
 
-/* line 29 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+/* line 31 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000329}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000331}}
 body {
   color: #555;
-  font: 16px "museo-slab", "Helvetica Neue", Helvetica, sans-serif;
+  font: 1.6rem "museo-slab", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 33 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+/* line 35 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000333}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000335}}
 .handwritten {
   font-family: "daniel", "Georgia", "Times New Roman", serif;
 }
 
-/* line 38 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
+/* line 40 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/base/main.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000338}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/base\/main\.styl}line{font-family:\0000340}}
 img.typekit-badge {
   display: none !important;
 }
@@ -294,41 +294,27 @@ aside p {
 /* line 33 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000333}}
-
-/* line 34 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000334}}
-main.hidden section {
-  display: none;
-}
-
-/* line 37 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000337}}
-main.hidden section:first-child {
+main button {
   display: block;
+  width: 3rem;
+  height: 3rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: #fff;
+  font: bold 3rem "museo-slab", "Helvetica Neue", Helvetica, sans-serif;
+  border: none;
+  border-radius: 100%;
+  background: transparent;
 }
-@media screen and (min-width: 980px) {
-
-/* line 40 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000340}}
-  main.hidden section:first-child {
-    background: url("-/assets/footer.png") bottom center repeat-x;
-  }
-}
-
-/* line 43 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000343}}
 @media screen and (max-width: 980px) {
 
 /* line 44 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000344}}
-  main.hidden section:first-child article {
-    height: 10rem;
-    background: url("-/assets/footer.png") bottom center repeat-x;
+  main button {
+    position: absolute;
+    left: 0.5rem;
   }
 }
 @media screen and (min-width: 980px) {
@@ -336,27 +322,101 @@ main.hidden section:first-child {
 /* line 48 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000348}}
-  main.hidden section:first-child article {
-    display: none;
+  main button {
+    position: absolute;
+    left: -1.5rem;
+    margin: 0 50%;
   }
 }
 
-/* line 51 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+/* line 53 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000351}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000353}}
+main button span {
+  display: block;
+  position: absolute;
+  top: -0.45rem;
+  left: 0.6rem;
+}
+
+/* line 59 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000359}}
+main.hidden {
+  position: relative;
+}
+
+/* line 62 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000362}}
+main.hidden button {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 65 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000365}}
+main.hidden section {
+  display: none;
+}
+
+/* line 68 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000368}}
+main.hidden section:nth-child(2) {
+  display: block;
+}
+@media screen and (min-width: 980px) {
+
+/* line 71 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000371}}
+  main.hidden section:nth-child(2) {
+    background: url("-/assets/footer.png") bottom center repeat-x;
+  }
+}
+
+/* line 74 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000374}}
 @media screen and (max-width: 980px) {
 
-/* line 52 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+/* line 75 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000352}}
-  main.hidden section:first-child article p {
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000375}}
+  main.hidden section:nth-child(2) article {
+    height: 10rem;
+    background: url("-/assets/footer.png") bottom center repeat-x;
+  }
+}
+@media screen and (min-width: 980px) {
+
+/* line 79 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000379}}
+  main.hidden section:nth-child(2) article {
     display: none;
   }
 }
 
-/* line 54 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+/* line 82 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000354}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000382}}
+@media screen and (max-width: 980px) {
+
+/* line 83 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000383}}
+  main.hidden section:nth-child(2) article p {
+    display: none;
+  }
+}
+
+/* line 85 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/pages/home.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Rafael\/Repos\/Personal\/rafaelrebolleda\.com\/-\/pages\/home\.styl}line{font-family:\0000385}}
 
 /* line 2 : /Users/Rafael/Repos/Personal/rafaelrebolleda.com/-/modules/milestone.styl */
 
