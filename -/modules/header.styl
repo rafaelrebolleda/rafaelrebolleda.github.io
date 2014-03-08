@@ -1,0 +1,37 @@
+// Header
+body.home, body.timeline
+
+  header:first-child
+    color: #FFF
+    text-align: center
+    background: url("-/assets/header.jpg") center center no-repeat
+
+    @media $handheld
+        height: 20rem
+        padding-top: 5rem
+
+    @media $desktop
+        height: 40rem
+        padding-top: 15rem
+
+    img:first-child
+      width: 5rem
+      border-radius: 100%
+
+    h1
+      margin-top: 1rem
+      text-transform: lowercase
+      font-weight: 100
+
+      @media $handheld
+        font-size: 1.8rem
+
+      @media $desktop
+        font-size: 2rem
+
+    h2
+      @media $handheld
+        font-size: 1.3rem
+
+      @media $desktop
+        font-size: 1.5rem
